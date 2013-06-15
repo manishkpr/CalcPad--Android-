@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:weightSum="1.0"
+    android:padding="5dp"
+    >
+    
+    <RelativeLayout 
+        android:id="@+id/headerContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.10"
+        android:background="#99666666"        
+        android:layout_marginBottom="5dp" 
+        >        
+        
+        <TextView 
+            android:layout_centerVertical="true"
+            android:text="@string/app_name"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            />
+        
+    </RelativeLayout>
+    
+    <RelativeLayout 
+        android:id="@+id/mainContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.50"
+        android:background="#9967C20F"
+        android:layout_marginBottom="5dp"       
+        >
+        
+        <TextView 
+            android:layout_centerInParent="true"
+            android:text="@string/lbl_calculator"
+            android:textColor="#ffffff"
+            android:textSize="40sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            />                
+        
+        <Button 
+            android:id="@+id/butCalcPad"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" 
+            android:background="#00000000"           
+            />
+        
+    </RelativeLayout>
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.40"
+        android:weightSum="1.0"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+        
+        <RelativeLayout 
+	        android:id="@+id/trainContainer"
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="0.40"
+	        android:background="#993D65AB"
+	        android:layout_marginRight="5dp"	        
+        >
+            
+            <TextView 
+            android:layout_centerInParent="true"
+            android:text="@string/lbl_train"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            />            
+            
+            <Button 
+            android:id="@+id/butTrain"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" 
+            android:background="#00000000"           
+            />
+            
+        </RelativeLayout>
+        
+        <RelativeLayout 
+	        android:id="@+id/testContainer"
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="0.60"
+	        android:background="#99D13E44" 	        
+        >
+            
+            <TextView 
+            android:layout_centerInParent="true"
+            android:text="@string/lbl_test"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            />            
+            
+            <Button 
+            android:id="@+id/butTest"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" 
+            android:background="#00000000"           
+            />
+        </RelativeLayout>
+        
+        </LinearLayout>        
+
+</LinearLayout>

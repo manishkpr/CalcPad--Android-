@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black_overlay">#66000000</color>
+    <color name="highlight_color">#FF6e3687</color>
+	<color name="highlight_color_transparent">#336e3687</color>
+	<color name="light_background">#fff3f3f3</color>
+	<color name="test_results">#ff0099CC</color>
+	<color name="instructions_copy">#ff0099CC</color>
+	<color name="grid_line">#772E4F72</color>
+	<color name="grey">#ff666666</color>
+	<color name="highlight_equation_color">#33FFFF66</color>
+</resources>

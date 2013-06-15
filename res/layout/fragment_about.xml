@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"       
+    >
+    <!--  android:background="@drawable/tileable_background"-->
+    
+    <ImageView 
+        android:id="@+id/wmp_logo"
+        android:contentDescription="@string/wmp_footer_note"
+        android:src="@drawable/wmp_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"        
+        android:paddingBottom="3dp"     
+        />
+    
+    <TextView
+        android:id="@+id/wmp_footer_note"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wmp_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal"
+        android:text="@string/wmp_footer_note"
+        android:textSize="12sp" />
+    <!-- android:textAlignment="center" -->
+    
+</RelativeLayout>

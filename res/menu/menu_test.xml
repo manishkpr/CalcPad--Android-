@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- http://docs.since2006.com/android/2.1-drawables.php -->
+    
+    <!-- android:showAsAction="ifRoom|withText" -->
+    
+    <item android:id="@+id/mi_undo"
+        android:title="@string/menu_undo"        
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_undo" />
+        
+    <item android:id="@+id/mi_redo"
+        android:title="@string/menu_redo" 
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_redo" />
+    
+    <!-- https://github.com/android/platform_frameworks_base/blob/master/core/res/res/drawable-hdpi/ic_menu_delete.png -->
+    <item android:id="@+id/mi_classify"
+        android:title="@string/menu_classify" 
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_classify"
+         />        
+
+    <item android:id="@+id/mi_reset"
+        android:title="@string/menu_reset" 
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_reset"
+        />
+    
+    <!-- <item android:id="@+id/mi_test"
+        android:title="@string/menu_run_test"
+        android:icon="@drawable/ic_action_test" /> -->
+    
+    <item android:id="@+id/mi_info"
+        android:title="@string/menu_info"
+        android:icon="@drawable/ic_action_info" />
+
+</menu>

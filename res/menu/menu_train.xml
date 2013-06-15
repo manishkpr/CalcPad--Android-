@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >               
+    
+    <item android:id="@+id/mi_add"
+        android:title="@string/menu_add"
+        android:showAsAction="ifRoom|withText"
+        android:icon="@drawable/ic_action_train" />
+    
+    <item android:id="@+id/mi_reset"
+        android:title="@string/menu_reset" 
+        android:showAsAction="ifRoom|withText"
+        android:icon="@drawable/ic_action_reset"
+        />
+    
+    <item android:id="@+id/mi_flush"
+        android:title="@string/menu_flush"
+        android:icon="@drawable/ic_action_flush" />
+    
+    <item android:id="@+id/mi_info"
+        android:title="@string/menu_info"
+        android:icon="@drawable/ic_action_info" />
+
+</menu>
